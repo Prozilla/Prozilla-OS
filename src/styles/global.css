@@ -1,5 +1,6 @@
 @import "./global/variables.css";
 @import "./global/fonts.css";
+@import "./global/cursor.css";
 @import "./global/scrollbar.css";
 
 html, body, #root {
@@ -48,7 +49,6 @@ button, li[data-rttab="true"] {
 	border: none;
 	outline: none;
 	transition: background-color 100ms ease-in-out;
-	cursor: pointer;
 	user-select: none;
 }
 

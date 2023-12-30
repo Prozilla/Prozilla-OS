@@ -1,0 +1,23 @@
+:root {
+	--default-cursor: url("../../../public/assets/cursor/dark/default.svg"), default;
+	--pointer-cursor: url("../../../public/assets/cursor/dark/pointer.svg"), pointer;
+	--text-cursor: url("../../../public/assets/cursor/dark/text.svg"), text;
+	--grab-cursor: url("../../../public/assets/cursor/dark/dnd-move.svg"), grab;
+}
+
+* {
+	cursor: var(--cursor, inherit);
+}
+
+html {
+	cursor: var(--default-cursor);
+}
+
+a, button, li[data-rttab="true"] {
+	--cursor: var(--pointer-cursor);
+	cursor: var(--cursor);
+}
+
+h1, h2, h3, h3, h4, h5, h6, p, code, pre, label {
+	cursor: var(--cursor, var(--text-cursor));
+}

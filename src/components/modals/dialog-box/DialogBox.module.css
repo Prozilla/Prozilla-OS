@@ -23,7 +23,7 @@
 	padding-left: var(--dialog-icon-margin);
 	padding-right: 0;
 	background-color: var(--background-color-b);
-	cursor: grab;
+	cursor: var(--grab-cursor);
 }
 
 .Dialog-icon,
@@ -62,7 +62,7 @@
 	padding: 0.75rem;
 	color: var(--foreground-color-a);
 	background: none;
-	cursor: pointer;
+	cursor: var(--pointer-cursor);
 	border: none;
 	outline: none;
 	aspect-ratio: 1;
@@ -101,7 +101,6 @@
 	border-radius: 0.5rem;
 	outline: none;
 	transition: background-color 100ms ease-in-out;
-	cursor: pointer;
 }
 
 .Dialog-content button:hover, .Dialog-content button:focus-visible {

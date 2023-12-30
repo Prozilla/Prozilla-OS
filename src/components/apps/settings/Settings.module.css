@@ -125,7 +125,7 @@
 	height: 100%;
 	border-radius: 0.5rem;
 	transition: filter 100ms ease-in-out;
-	cursor: pointer;
+	cursor: var(--pointer-cursor);
 }
 
 .Button-group {
@@ -165,7 +165,6 @@
 	border: none;
 	outline: none;
 	aspect-ratio: 1;
-	cursor: pointer;
 }
 
 .Icon-button::after {

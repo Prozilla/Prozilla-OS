@@ -19,7 +19,6 @@
 	border: none;
 	border-radius: 0.5rem;
 	outline: none;
-	cursor: pointer;
 	transition: background-color 100ms ease-in-out;
 }
 

@@ -9,7 +9,6 @@
 	outline: none;
 	font-size: 0.875em;
 	transition: background-color 100ms ease-in-out;
-	cursor: pointer;
 }
 
 .Button:hover, .Button:focus-visible {

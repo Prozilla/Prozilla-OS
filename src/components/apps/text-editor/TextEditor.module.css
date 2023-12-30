@@ -69,7 +69,7 @@
 
 .Code {
 	margin: 0;
-	cursor: default;
+	cursor: var(--text-cursor);
 }
 
 .Code *[class*="hljs-string"] { color: var(--green-a); }

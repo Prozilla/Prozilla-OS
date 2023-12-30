@@ -7,7 +7,7 @@
 	padding: 0.5rem;
 	overflow: auto;
 	height: 100%;
-	cursor: text;
+	cursor: var(--text-cursor);
 }
 
 .Terminal * {
@@ -90,7 +90,6 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	cursor: text;
 }
 
 .ansi-black-fg {	color: var(--dark-grey-e); }

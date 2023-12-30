@@ -12,7 +12,6 @@
 	border: none;
 	outline: none;
 	font-size: 0.85rem;
-	cursor: pointer;
 }
 
 .Button:hover, .Button:focus-visible {
@@ -44,7 +43,6 @@
 	font-size: 0.85rem;
 	text-align: start;
 	white-space: nowrap;
-	cursor: pointer;
 }
 
 .Dropdown > button:hover, .Dropdown > button:focus-visible {

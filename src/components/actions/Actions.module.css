@@ -56,7 +56,6 @@
 	font-size: 0.875rem;
 	text-align: start;
 	white-space: nowrap;
-	cursor: pointer;
 }
 
 .Context-menu .Button:hover,
@@ -129,7 +128,7 @@
 	border-top-left-radius: 0;
 	background-color: var(--background-color-b);
 	transition: opacity 100ms ease-out;
-	cursor: auto;
+	/* cursor: auto; */
 }
 
 .Context-menu .Dropdown:not(.Active) .Dropdown-content {

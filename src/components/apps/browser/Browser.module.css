@@ -40,7 +40,6 @@
 	border: none;
 	outline: none;
 	aspect-ratio: 1;
-	cursor: pointer;
 }
 
 .Icon-button::after {
